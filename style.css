@@ -8,3 +8,20 @@ body {
 code {
     font-family: "Source Code Pro";
 }
+
+nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 25%;
+}
+
+main {
+    position: absolute;
+    right: 0;
+    width: 75%;
+}
